@@ -3090,12 +3090,12 @@ Scheme
 				}
 			}		
 			
-		Chernobyl12
+		Chernobyl8
 			{
 				"1"
 				{
 					"name"		"Chernobyl"
-					"tall"		"12"
+					"tall"		"8"
 					"antialias" "1"
 				}
 			}
