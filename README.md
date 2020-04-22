@@ -1,2 +1,2 @@
-# knights-hud
-HUD for TF2 
+### KNIGHT'S HUD
+HUD for TF2 made mainly for demoknighting
