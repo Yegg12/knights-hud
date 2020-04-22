@@ -3016,8 +3016,130 @@ Scheme
 				"antialias" "1"
 			}
 		}
+	
+	
+		/// Custom Econ Fonts //// Please Dont Put Them Anywhere Else ///
+	
+		SovietProgramRegular12
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"12"
+					"antialias" "1"
+				}
+			}
+		
+		SovietProgramRegular16
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"16"
+					"antialias" "1"
+				}
+			}
+		
+		SovietProgramRegular24
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"24"
+					"antialias" "1"
+				}
+			}
+		
+		SovietProgramRegular32
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"32"
+					"antialias" "1"
+				}
+			}
+			
+		SovietProgramRegular48
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"48"
+					"antialias" "1"
+				}
+			}	
+			
+		SovietProgramRegular18
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"18"
+					"antialias" "1"
+				}
+			}		
+			
+		SovietProgramBold44
+			{
+				"1"
+				{
+					"name"		"Soviet Program Bold"
+					"tall"		"44"
+					"antialias" "1"
+				}
+			}		
+			
+		Chernobyl12
+			{
+				"1"
+				{
+					"name"		"Chernobyl"
+					"tall"		"12"
+					"antialias" "1"
+				}
+			}
+			
+		Chernobyl16
+			{
+				"1"
+				{
+					"name"		"Chernobyl"
+					"tall"		"16"
+					"antialias" "1"
+				}
+			}	
+			
+		Chernobyl24
+			{
+				"1"
+				{
+					"name"		"Chernobyl"
+					"tall"		"24"
+					"antialias" "1"
+				}
+			}	
+		
+		Chernobyl32
+			{
+				"1"
+				{
+					"name"		"Chernobyl"
+					"tall"		"32"
+					"antialias" "1"
+				}
+			}	
+			
+		Chernobyl48
+			{
+				"1"
+				{
+					"name"		"Chernobyl"
+					"tall"		"48"
+					"antialias" "1"
+				}
+			}		
 	}
-
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5826,6 +5948,31 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font"	"resource/fonts/SovietProgram.ttf"
+			"name"  "Soviet Program Regular"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/SovietProgram-Bold.ttf"
+			"name"  "Soviet Program Bold"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/SovietProgram-BoldItalic.ttf"
+			"name"  "Soviet Program Bold Italic"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/SovietProgram-Italic.ttf"
+			"name"  "Soviet Program Italic"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/Chernobyl.otf"
+			"name"  "Chernobyl"
 		}
 	}
 }
