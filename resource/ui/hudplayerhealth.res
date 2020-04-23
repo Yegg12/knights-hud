@@ -53,10 +53,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"57"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"75"	[$X360]
+		"ypos"			"32"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
@@ -89,19 +89,37 @@
 		"font"			"SovietProgramRegular32"
 		"fgcolor"		"TanLight"
 	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"36"
+		"xpos_minmode"	"61"
+		"ypos"			"51"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"SovietProgramRegular32"
+		"fgcolor"		"Black"
+	}	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
+		"xpos"			"60"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"15"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
