@@ -3019,6 +3019,16 @@ Scheme
 	
 	
 		/// Custom Econ Fonts //// Please Dont Put Them Anywhere Else ///
+		
+		SovietProgramRegular8
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"8"
+					"antialias" "1"
+				}
+			}
 	
 		SovietProgramRegular12
 			{
