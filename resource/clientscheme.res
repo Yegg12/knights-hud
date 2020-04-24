@@ -3029,6 +3029,16 @@ Scheme
 					"antialias" "1"
 				}
 			}
+			
+		SovietProgramRegular11
+			{
+				"1"
+				{
+					"name"		"Soviet Program Regular"
+					"tall"		"11"
+					"antialias" "1"
+				}
+			}
 	
 		SovietProgramRegular12
 			{

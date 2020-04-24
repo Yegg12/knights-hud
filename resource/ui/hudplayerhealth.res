@@ -53,21 +53,21 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"57"	[$WIN32]
+		"xpos"			"102856"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"75"	[$X360]
-		"ypos"			"32"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
+		"wide"			"6000"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
+		"tall"			"45"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -75,36 +75,36 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"35"
+		"xpos"			"36"
 		"xpos_minmode"	"61"
-		"ypos"			"50"	[$WIN32]
+		"ypos"			"9"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"18"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SovietProgramRegular32"
+		"font"			"SovietProgramBold44"
 		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"36"
+		"xpos"			"37"
 		"xpos_minmode"	"61"
-		"ypos"			"51"	[$WIN32]
+		"ypos"			"10"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"18"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SovietProgramRegular32"
+		"font"			"SovietProgramBold44"
 		"fgcolor"		"Black"
 	}	
 	"PlayerStatusMaxHealthValue"
@@ -117,7 +117,7 @@
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
@@ -627,5 +627,43 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
+	}
+	"HealthBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBackground"
+		"xpos"			"44"
+		"ypos"			"38"
+		"zpos"			"-1"
+		"wide"			"85"
+		"tall"			"45"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 150"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"37"
+		"ypos"			"38"
+		"zpos"			"2"
+		"wide"			"7"
+		"tall"	 		"45"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"
+		"src_corner_width"		"40"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 }
