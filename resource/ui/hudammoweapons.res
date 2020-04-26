@@ -24,15 +24,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"4"
+		"xpos"			"400000000000"
 		"xpos_minmode"	"28"
-		"ypos"			"0"
+		"ypos"			"500000"
 		"ypos_minmode"	"7"
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -171,7 +171,7 @@
 		"labelText"		"%Ammo%"
 		
 	}			
-	"AmmoBackground"
+/*	"AmmoBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoBackground"
@@ -208,5 +208,5 @@
 		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
-	}
+	} *\
 }

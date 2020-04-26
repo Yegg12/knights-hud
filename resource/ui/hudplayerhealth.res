@@ -38,9 +38,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"7300"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"33000"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
@@ -53,21 +53,21 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"102856"	[$WIN32]
+		"xpos"			"64000"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"75"	[$X360]
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"0"	[$X360]
+		"ypos"			"37"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"6000"	[$WIN32]
+		"wide"			"45"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
 		"tall"			"45"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -628,7 +628,7 @@
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
-	"HealthBackground"
+/*	"HealthBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBackground"
@@ -665,5 +665,5 @@
 		"src_corner_width"		"40"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
-	}
+	} *\
 }
