@@ -5994,5 +5994,13 @@ Scheme
 			"font"	"resource/fonts/Chernobyl.otf"
 			"name"  "Chernobyl"
 		}
+        "13"        "resource/linux_fonts/DejaVuSans.ttf"
+        "14"        "resource/linux_fonts/DejaVuSans-Bold.ttf"
+        "15"        "resource/linux_fonts/DejaVuSans-BoldOblique.tff"
+        "16"        "resource/linux_fonts/DejaVuSans-Oblique.ttf"
+        "17"        "resource/linux_fonts/LiberationSans-Regular.ttf"
+        "18"        "resource/linux_fonts/LiberationSans-Bold.ttf"
+        "19"        "resource/linux_fonts/LiberationMono-Regular.ttf"
+        "20"        "resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

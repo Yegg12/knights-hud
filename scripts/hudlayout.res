@@ -16,9 +16,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"150"	[$WIN32]
+		"xpos"	"c-300"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r73"	[$WIN32]
+		"ypos"	"c188"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
@@ -76,9 +76,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r720"	[$WIN32]
+		"xpos"			"c-75"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r90"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -91,9 +91,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r462"	[$WIN32]
+		"xpos"			"cs-0.58"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"c100"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -1036,14 +1036,14 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"162"	[$WIN32]
-		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"52"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
+		"xpos_minmode"	"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"500"
-		"tall"			"500"
+		"wide"			"f0"
+		"tall"			"f0"
 	}	
 
 	HudTeamGoal
