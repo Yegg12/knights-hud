@@ -65,6 +65,15 @@ Scheme
 		"HUDSpectator"		"124 124 124 127"
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"
+        "HUDSpectatorSolid" "124 124 124 255"
+
+		"HUDBlueTeamFaded"		"87 104 130 127"
+		"HUDRedTeamFaded"		"156 80 67 127"
+		"HUDSpectatorFaded"		"99 99 99 127"
+		"HUDBlueTeamSolidFaded"	"87 104 130 255"
+		"HUDRedTeamSolidFaded"	"156 80 67 255"
+        "HUDSpectatorSolidFaded" "99 99 99 255"
+
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
@@ -3119,6 +3128,16 @@ Scheme
 					"antialias" "1"
 				}
 			}
+
+        Chernobyl12
+            {
+                "1"
+                {
+                    "name"      "Chernobyl"
+                    "tall"      "12"
+                    "antialias" "1"
+                }
+            }
 			
 		Chernobyl16
 			{

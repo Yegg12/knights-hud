@@ -2,13 +2,13 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"37"
+		"delta_item_start_y"	"300"
+		"delta_item_end_y"		"280"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"SovietProgramRegular24"
+		"delta_item_font"		"SovietProgramRegular12"
 	}
 	
 	"AccountBG"
@@ -45,7 +45,7 @@
 		"tall_lodef"	"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
