@@ -61,7 +61,33 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"SovietProgramRegular8"
+	}
+
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"40"
+		"ypos"					"25"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"visible_minmode"		"1"
+		"ypos_minmode"			"1"
+		"xpos_minmode"			"0"
+		"textAlignment_minmode"			"west"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ENERGYDRINK"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"SovietProgramRegular8"
+        "fgcolor"               "Black
 	}
 
 	"ItemEffectMeter"

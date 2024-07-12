@@ -859,6 +859,7 @@
         "mouseinputEnabled" "0"
 		"labelText"		"CANCEL"
 		"textAlignment"	"center"
+        "Command"       "vguicancel"
 		"font"			"Chernobyl12"
 		"fgcolor"		"TanLight"
 	}
@@ -879,6 +880,7 @@
         "mouseinputEnabled" "0"
 		"labelText"		"CANCEL"
 		"textAlignment"	"center"
+        "Command"       "vguicancel"
 		"font"			"Chernobyl12"
 		"fgcolor"		"Black"
 	}
